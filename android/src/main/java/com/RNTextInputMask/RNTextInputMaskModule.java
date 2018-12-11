@@ -59,7 +59,7 @@ public class RNTextInputMaskModule extends ReactContextBaseJavaModule {
               input,
               input.length()
           ),
-          true
+          false
       );
       final String output = result.getExtractedValue();
       onResult.invoke(output);
